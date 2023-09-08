@@ -109,7 +109,7 @@ class AddressBook(UserList):
                         new_contact = new_value.split(' ')
                         new_value = []
                         for number in new_contact:
-                             new_value.append(Phone(number).value)
+                            new_value.append(Phone(number).value)
                     if parameter in account.keys():
                         account[parameter] = new_value
                     else:
